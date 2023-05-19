@@ -40,6 +40,8 @@ export class News extends Component {
       loading: false,
     });
   }
+
+  // just doing some changes to check how it works on git hub
   async componentDidMount() {
     this.update();
   }
